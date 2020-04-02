@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>dfghjklkjhgfdfghj</title>
+    <link rel="stylesheet" href="js.css">
+
+
+</head>
+<body>
+
+<h2>JAVASCRİPT EĞİTİMİ</h2>
+<p>Click on the button to open the dropdown menu.</p>
+
+<div class="dropdown">
+    <button id="myBtn" class="dropbtn">Dropdown</button>
+    <div id="myDropdown" class="dropdown-content">
+        <li> <a href="/JavaScript/giris.html">JavaScript Giriş</a></li>
+        <li> <a href="#syntax">JavaScript Yazılım (Syntax) yapısı</a></li>
+        <li><a href="#degiskenler">Değişkenler</a></li>
+        <li><a href="#operatörler">Operatörler</a></li>
+        <li><a href="#aritmetik"></a>Aritmetik</li>
+        <li><a href="#contact">Veri Tipleri</a></li>
+        <li><a href="#contact">Fonksiyon Yapısı</a></li>
+        <li><a href="#contact">Olaylar (Events)</a></li>
+        <li><a href="#contact">Stringler, Sayılar, Diziler ve Diziİşlemleri</a></li>
+        <li><a href="#contact">If koşul yapıları</a></li>
+        <li><a href="#contact">Döngüler</a></li>
+        <li><a href="#contact">Tip Dönüşümleri</a></li>
+        <li><a href="#contact">Çalışma yapısı ve genel mimarisi</a></li>
+    </div>
+</div>
+
+<script>
+    // Get the button, and when the user clicks on it, execute myFunction
+    document.getElementById("myBtn").onclick = function() {myFunction()};
+
+    /* myFunction toggles between adding and removing the show class, which is used to hide and show the dropdown content */
+    function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+    }
+</script>
+
+</body>
+</html>
